@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+
+<head>
+    <!-- Title of the page and link to the stylesheet and script -->
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../Website/CSS/style.css">
+    <script src="../website/JavaScript/functions.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- Navigation bar with links and a logo -->
+        <nav class="navigation">
+            <a href="Home Page.html">Home</a>
+            <a class="active" href="Login Page.html">Login</a>
+            <a href="Registration Page.html">Register</a>
+            <a href="Scores Page.html">Scores</a>
+            <a href="Play Page.html">Play</a>
+            <img class="logotop" src="../Website/Images/WebsiteLogo.png">
+        </nav>
+    </header>
+
+    <main class="loginContainer" id="LoginParagraph">
+        <form style="align-items: left; margin-left: 10%;">
+            <!-- Form for user login -->
+            <div class="input-container" style="margin-top: 4%;">
+                <div class="input-field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="emailInput" placeholder="Please enter your Email..." name="email" required>
+                </div>
+            </div>
+
+            <div class="input-container" style="margin-top: 4%;">
+                <div class="input-field">
+                    <label for="password">Password:</label>
+                    <input type="password" id="passwordInput" placeholder="Please enter your Password..." name="password"
+                        required>
+                </div>
+            </div>
+
+            <div>
+                <p class="LoginAlert" id="LoginFailure"></p>
+            </div>
+
+            <div style="margin-top: 2%;">
+                <label class="checkbox-label" style="margin-top: 10%;">
+                    <input type="checkbox" class="checkbox-input">
+                    <span class="checkbox">Remember me</span>
+                </label>
+            </div>
+        </form>
+
+        <div>
+            <button type="submit" class="forgotPasswordBtn" onclick="window.location.href='Registration Page.html'">Forgot
+                Password</button>
+        </div>
+
+        <div>
+            <button id="submit" type="submit" onclick="login()" class="loginButton">LogIn</button>
+            
+        </div>
+    </main>
+
+    <main class="createContainer">
+        <!-- Section for registration-related content -->
+        <p class="AlreadyAccount">Don't have an account?</p>
+        <button class="registerHereButton" onclick="window.location.href='Registration Page.html'">Register here</button>
+
+        <div class="quote-container">
+            <p id="quote-text">Loading...</p>
+        </div>
+
+        <audio id="LoginFailSound" src="../Website/Sounds/LoginFail.mp3"></audio>
+        <audio id="LoginCorrectSound" src="../Website/Sounds/LoginCorrect.mp3"></audio>
+
+    </main>
+
+    <div class="Aside2">
+        <h3 class="h3">
+            <img class="icon" src="../Website/Images/SupportIcon.png">
+            Support:
+        </h3>
+
+        <p class="support">
+            <!-- Contact information for support -->
+            Gamehelp.com
+            <br>
+            <br>
+            GameCustomerService.com
+            <br>
+            <br>
+            HelpCentre.com
+            <br>
+            <br>
+            HereToHelp.com
+            <br>
+            <br>
+        </p>
+    </div>
+
+    <footer>
+        <!-- Links to various social media platforms with logos and a website logo -->
+        <div class="images">
+            <img src="../Website/Images/YouTubeLogo.png" width="100%" height="50%">
+            <p class="neonText">YouTube</p>
+        </div>
+    
+        <div class="images">
+            <img src="../Website/Images/FacebookLogo.jpg" width="100%" height="50%">
+            <p class="neonText">Facebook</p>
+        </div>
+    
+        <div class="images">
+            <img src="../Website/Images/TelegramLogo.png" width="100%" height="50%">
+            <p class="neonText">Telegram</p>
+        </div>
+    
+        <div class="images">
+            <img src="../Website/Images/WhatsAppLogo.png" width="100%" height="50%">
+            <p class="neonText">WhatsApp</p>
+        </div>
+    
+        <div class="images">
+            <img src="../Website/Images/InstagramLogo.png" width="100%" height="50%">
+            <p class="neonText">Instagram</p>
+        </div>
+    
+        <div class="footerlogo">
+            <img src="../Website/Images/WebsiteLogo.png" width="100%" height="100%" style="border-radius: 5px;">
+        </div>
+    </footer>
+</body>
+
+</html>

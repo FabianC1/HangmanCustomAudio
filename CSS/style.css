@@ -1,0 +1,1110 @@
+/* This is the styling for the body. It sets the background image and margin */
+body {
+    background-image: url(../Images/website-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+/* Styling for the header section */
+header {
+    position: static;
+    background-image: url(../Images/Header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border-radius: 9px;
+    height: 12%;
+    margin-top: 0%;
+    box-shadow: 0 0 30px;
+}
+
+/* Styling for links within the header */
+header a {
+    float: left;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    margin-right: 4%;
+    padding: 1.5%;
+    margin-left: 5%;
+}
+
+/* Styling for header links on hover */
+header a:hover {
+    background: rgb(238, 238, 238);
+    border-radius: 40px;
+    height: auto;
+    color: darkblue;
+}
+
+/* Styling for the active link in the header */
+header a.active {
+    color: rgb(255, 102, 0);
+    height: auto;
+    background: url(../Images/WebsiteLogo.png);
+    border-radius: 40px;
+    border-color: white;
+    border-style: solid;
+}
+
+/* Styling for the footer section */
+footer {
+    position: absolute;
+    background-image: url(../Images/Footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 12%;
+    bottom: 0;
+    border-radius: 9px;
+    box-shadow: 0 0 30px;
+}
+
+/* Styling for image divs */
+div.images {
+    position: relative;
+    float: right;
+    margin-top: 1%;
+    margin-right: 12%;
+}
+
+/* Styling for the logo in the footer */
+.footerlogo {
+    height: 80%;
+    width: auto;
+    float: left;
+    border-radius: 9px;
+    border-style: double;
+    border-color: white;
+    margin-top: 0.5%;
+    margin-left: 5%;
+}
+
+/* Styling for neon text */
+.neonText {
+    color: #ffffff;
+    text-shadow: (various shadow effects);
+    position: absolute;
+    text-align: center;
+    left: -5px;
+    top: 80%;
+    font-weight: lighter;
+}
+
+
+
+/* Styling for the .logotop class */
+.logotop {
+    height: 80%;
+    width: auto;
+    float: right;
+    margin-top: 0.5%;
+    margin-right: 3%;
+    border-radius: 9px;
+    border-style: double;
+    border-color: white;
+}
+
+/* Styling for the aside element */
+aside {
+    animation-name: animation;
+    animation-duration: 2.5s;
+    position: absolute;
+    float: left;
+    margin-left: 0%;
+    width: 25%;
+    height: 75%;
+    font-style: italic;
+    background: rgba(38, 7, 116, 0.399);
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+    border-style: double;
+    font-size: xx-large;
+    box-shadow: 0 0 30px;
+}
+
+
+.Aside2 {
+    animation-name: animation2;
+    animation-duration: 2.5s;
+    position: absolute;
+    float: left;
+    margin-left: 0%;
+    width: 25%;
+    height: 75%;
+    font-style: italic;
+    background: rgba(38, 7, 116, 0.399);
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+    border-style: double;
+    font-size: xx-large;
+    box-shadow: 0 0 30px;
+}
+
+
+/* Styling for h3 elements within the aside element */
+aside h3 {
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+/* Styling for the main element */
+main {
+    backdrop-filter: blur(20px);
+    position: relative;
+    width: 60%;
+    height: 75%;
+    float: right;
+    font-style: italic;
+    background: rgba(0, 0, 0, 0.283);
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+    border-style: double;
+    font-size: xx-large;
+    box-shadow: 0 0 30px;
+    right: 5%;
+}
+
+/* Styling for h1 elements with the class .text */
+h1.text {
+    font-size: 150%;
+    color: white;
+    padding: 2%;
+    text-decoration: underline;
+}
+
+/* Styling for elements with the class .contacts */
+.contacts {
+    font-weight: bold;
+    word-spacing: 5%;
+    line-height: 100%;
+    margin-left: 10%;
+}
+
+/* Styling for elements with the class .support */
+.support {
+    font-weight: bold;
+    word-spacing: 5%;
+    line-height: 180%;
+    margin-left: 2%;
+}
+
+/* Styling for elements with the class .icon */
+.icon {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+/* Styling for elements with the class .Scores */
+.Scores {
+    list-style-type: square;
+    font-size: 200%;
+    color: rgb(255, 255, 255);
+    margin-left: 5%;
+    text-decoration: underline;
+}
+
+/* Styling for the .loginContainer class */
+.loginContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -50%);
+    width: 40%;
+    height: 70%;
+    background: rgba(0, 0, 0, 0.283);
+    backdrop-filter: blur(20px);
+}
+
+/* Styling for the .createContainer class */
+.createContainer {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20%;
+    height: 60%;
+    background: rgba(0, 0, 0, 0.283);
+    backdrop-filter: blur(20px);
+}
+
+/* Styling for the input container */
+.input-container {
+    width: 90%;
+    height: 15%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Styling for input fields and labels within the input container */
+.input-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field label {
+    margin-bottom: 1%;
+}
+
+/* Styling for the checkbox field */
+.checkbox-field {
+    display: flex;
+    align-items: center;
+}
+
+/* Hide the default checkbox */
+.checkbox-input {
+    display: none;
+}
+
+/* Style the custom checkbox */
+.checkbox-input+.checkbox::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    background-color: transparent;
+    border-radius: 3px;
+    margin-right: 5px;
+    position: relative;
+}
+
+/* Style the custom checkbox when it's checked */
+.checkbox-input:checked+.checkbox::before {
+    background-color: purple;
+}
+
+/* Styling for the checkbox label */
+.checkbox-label {
+    border-bottom: 2px solid purple;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Styling for labels */
+label {
+    float: left;
+    margin-left: 5%;
+    margin-top: 5px;
+    font-size: 90%;
+    font-style: normal;
+}
+
+/* Styling for the 'Register Here' button */
+.registerHereButton {
+    margin-top: 20%;
+    height: 8%;
+    width: 50%;
+    margin-left: 25%;
+    background: linear-gradient(to left, purple, white);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7px 0px 7px 0px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Styling for the 'Register Here' button on hover/active */
+.registerHereButton:hover {
+    background: linear-gradient(to right, purple, white);
+    animation: pulse 0.5s infinite alternate;
+}
+
+
+/* CSS style for the username input */
+input[type="text"] {
+    float: left;
+    margin-left: 5%;
+    background-color: transparent;
+    width: 80%;
+    height: 5%;
+    color: rgb(255, 255, 255);
+    border: transparent;
+    font-size: large;
+    content: "";
+    /* This allows me to make the content property empty */
+    display: block;
+    border-bottom: 2px solid purple;
+}
+
+/* Styling for the placeholder text of the username input */
+input[type="text"]::placeholder {
+    color: #c6c6c6;
+    font-style: italic;
+    text-decoration: none;
+    font-size: large;
+    width: 80%;
+}
+
+/* Styling when the username input is in focus (clicked) */
+input[type="text"]:focus {
+    background: transparent;
+    outline: none;
+    font-size: large;
+    width: 80%;
+}
+
+/* CSS style for the password input */
+input[type="password"] {
+    float: left;
+    margin-left: 5%;
+    background-color: transparent;
+    width: 80%;
+    height: 5%;
+    color: rgb(255, 255, 255);
+    border: transparent;
+    font-size: large;
+    content: "";
+    /* This allows me to make the content property empty */
+    display: block;
+    border-bottom: 2px solid purple;
+}
+
+/* Styling for the placeholder text of the password input */
+input[type="password"]::placeholder {
+    color: #c6c6c6;
+    font-style: italic;
+    text-decoration: none;
+    font-size: large;
+    width: 80%;
+}
+
+/* Styling when the password input is in focus (clicked) */
+input[type="password"]:focus {
+    background: transparent;
+    outline: none;
+    font-size: large;
+    width: 80%;
+}
+
+/* CSS style for the date input */
+input[type="date"] {
+    float: left;
+    margin-left: 5%;
+    background-color: transparent;
+    width: 80%;
+    height: 5%;
+    color: rgb(255, 255, 255);
+    border: transparent;
+    font-size: large;
+    content: "";
+    /* This allows me to make the content property empty */
+    display: block;
+    border-bottom: 2px solid purple;
+}
+
+/* Styling for the placeholder text of the date input */
+input[type="date"]::placeholder {
+    color: #c6c6c6;
+    font-style: italic;
+    text-decoration: none;
+    font-size: large;
+    width: 80%;
+}
+
+/* Styling when the date input is in focus (clicked) */
+input[type="date"]:focus {
+    background: transparent;
+    outline: none;
+    font-size: large;
+    width: 80%;
+}
+
+/* CSS style for the email input */
+input[type="email"] {
+    float: left;
+    margin-left: 5%;
+    background-color: transparent;
+    width: 80%;
+    height: 5%;
+    color: rgb(255, 255, 255);
+    border: transparent;
+    font-size: large;
+    content: "";
+    /* This allows me to make the content property empty */
+    display: block;
+    border-bottom: 2px solid purple;
+}
+
+/* Styling for the placeholder text of the email input */
+input[type="email"]::placeholder {
+    color: #c6c6c6;
+    font-style: italic;
+    text-decoration: none;
+    font-size: large;
+    width: 80%;
+}
+
+/* Styling when the email input is in focus (clicked) */
+input[type="email"]:focus {
+    background: transparent;
+    outline: none;
+    font-size: large;
+    width: 80%;
+}
+
+/* Styling for the "Already have an account?" text */
+.AlreadyAccount {
+    margin-top: 35%;
+    color: black;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+/* Styling for the line under "Already have an account?" text */
+.AlreadyAccount:after {
+    content: "";
+    /* This allows me to make the content property empty */
+    display: block;
+    border-bottom: 2px solid purple;
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 90%;
+}
+
+/* Styling for the "Forgot Password" button */
+.forgotPasswordBtn {
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 20%;
+    height: 7%;
+    width: 25%;
+    background: purple;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-weight: bold;
+}
+
+/* Styling for the "Forgot Password" button on hover/active */
+.forgotPasswordBtn:hover {
+    background: linear-gradient(to right, purple, white);
+    color: black;
+    animation: pulse 0.5s infinite alternate;
+}
+
+/* Styling for the login button */
+.loginButton {
+    position: static;
+    margin-top: 7%;
+    margin-left: 35%;
+    height: 8%;
+    width: 30%;
+    background: linear-gradient(to right, purple, white);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 7px 0px 7px 0px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Styling for the login button on hover/active */
+.loginButton:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to right, white, purple);
+    opacity: 0.8;
+    animation: bounce 1s infinite;
+}
+
+/* Styling for the "Register" button */
+.registerButton {
+    left: 0%;
+    margin-top: 3%;
+    position: static;
+    height: 9%;
+    width: 30%;
+    background: linear-gradient(to right, purple, white);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 7px 0 7px 0;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Styling for the "Register" button on hover/active */
+.registerButton:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to right, white, purple);
+    opacity: 0.8;
+    animation: bounce 1s infinite;
+}
+
+/* Styling for a login alert message */
+.LoginAlert {
+    margin-left: 5%;
+    font-size: 25px;
+    color: #ffffff;
+    text-shadow: 0 0 10px #4B0082;
+    position: fixed;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Styling for a quote container */
+.quote-container {
+    text-shadow: 0 0 10px #4B0082;
+    color: white;
+    background-color: transparent;
+    margin-top: 10%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Styling for an element with the ID "quote-text" */
+#quote-text {
+    position: absolute;
+    font-style: normal;
+}
+
+/* Styling for a container with the class "joke-container" */
+.joke-container {
+    text-shadow: 0 0 10px #4B0082;
+    color: white;
+    background-color: transparent;
+    margin-top: 10%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Styling for an element with the ID "joke-text" */
+#joke-text {
+    position: absolute;
+    font-style: normal;
+}
+
+/* Styling for a table with the class "scores-table" */
+.scores-table {
+    border-radius: 15px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Styling for table headers and data cells within "scores-table" */
+.scores-table th,
+.scores-table td {
+    border: 5px solid #000000;
+    padding: 8px;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* Styling for table headers within "scores-table" */
+.scores-table th {
+    background-image: url(../Images/Header.png);
+    font-weight: bold;
+}
+
+/* Styling for an element with the class "createRow" */
+.createRow {
+    position: fixed;
+    margin-top: -10%;
+    margin-left: 35%;
+    height: 9%;
+    width: 30%;
+    background: linear-gradient(to right, purple, white);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 7px 0 7px 0;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Styling for the "createRow" element on hover/active */
+.createRow:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to right, white, purple);
+    animation: pulse 0.5s infinite alternate;
+}
+
+
+/* Style for the GoPlay button in the scores page */
+.GoPlay {
+    position: fixed;
+    margin-top: -10%;
+    margin-left: 70%;
+    height: 9%;
+    width: 30%;
+    background: linear-gradient(to right, white, purple);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 7px 0 7px 0;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Hover style for the GoPlay button in the scores page */
+.GoPlay:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to right, purple, white);
+    animation: pulse 0.5s infinite alternate;
+}
+
+/* Style for the register Registration Failure text */
+.RegisterAlert {
+    margin-top: 1%;
+    margin-left: 30%;
+    font-size: 25px;
+    color: #ffffff;
+    text-shadow: 0 0 10px #4B0082;
+    position: fixed;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+
+/* one of the colour changing animations used for the website */
+@keyframes animation {
+    0% {
+        background-color: rgba(0, 0, 0, 0);
+        left: 0px;
+        top: 12%;
+    }
+
+    25% {
+        background-color: rgba(0, 0, 0, 0.635);
+        left: 9.1%;
+        top: 12%;
+    }
+
+    50% {
+        background-color: rgba(255, 98, 0, 0.391);
+        left: 9.1%;
+        top: 20%;
+    }
+
+    75% {
+        background-color: transparent;
+        left: 0px;
+        top: 20%;
+    }
+
+    100% {
+        background-color: rgba(38, 7, 116, 0.399);
+        left: 0px;
+        top: 12%;
+    }
+}
+
+/* one of the colour changing animations used for the website */
+@keyframes animation2 {
+    0% {
+        background-color: rgba(0, 0, 0, 0);
+        left: 0px;
+        top: 12%;
+    }
+
+    25% {
+        background-color: rgba(0, 0, 0, 0.635);
+        left: 6.5%;
+        top: 12%;
+    }
+
+    50% {
+        background-color: rgba(255, 98, 0, 0.391);
+        left: 6.5%;
+        top: 20%;
+    }
+
+    75% {
+        background-color: transparent;
+        left: 0px;
+        top: 20%;
+    }
+
+    100% {
+        background-color: rgba(38, 7, 116, 0.399);
+        left: 0px;
+        top: 12%;
+    }
+}
+
+
+
+/* creates a shadow effect animation on buttons */
+@keyframes shadow-drop-center {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+}
+
+
+
+
+.shadow-drop-center {
+    -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+/* creates a pusling effect animation on buttons */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+
+/* creates a bounce effect on buttons */
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-10px);
+    }
+
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+
+
+
+/* style for the game container */
+.container {
+    font-size: 16px;
+    background-image: url(../Images/Footer.png);
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 65%;
+    padding: 3em;
+    border-radius: 0.6em;
+    animation: shadow-drop-center;
+    animation-duration: 2s;
+
+}
+
+/* style for the game container */
+#options-container {
+    margin-top: -5%;
+    font-size: 1.3em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* another style for the game container, but div */
+#options-container div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.2em 0 2.4em 0;
+}
+
+/* style for the game container buttons */
+#options-container button {
+    padding: 0.8em 1.5em;
+    font-size: 1em;
+    border: 3px solid #000000;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 0.3em;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+/* style for the game container hover buttons */
+#options-container button:disabled {
+    border: 3px solid #808080;
+    color: #808080;
+    background-color: #efefef;
+    cursor: default;
+}
+
+/* style for the game container buttons */
+#options-container button.active {
+    background-image: url(../Images/WebsiteLogo.png);
+    border: 3px solid #000000;
+    color: rgb(255, 128, 0);
+}
+
+
+/* style for the game letter containers */
+.letter-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6em;
+}
+
+/* style for the game letter container buttons */
+#letter-container button {
+    height: 3em;
+    width: 3em;
+    border-radius: 0.3em;
+}
+
+
+/* style for the new game popup */
+.new-game-popup {
+    background-image: url(../Images/Header.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0.6em;
+}
+
+/* style for where the user inputs the letters */
+#user-input-section {
+    position: absolute;
+    letter-spacing: 10px;
+    display: flex;
+    float: right;
+    font-size: 2.5em;
+    margin: 2em 5em 5em 11em;
+}
+
+/* style for where the hangman is drawin */
+canvas {
+    position: sticky;
+    display: block;
+    margin: 5%;
+    margin-left: -2%;
+    border: 2px solid #ffffff;
+    width: 400px;
+    height: 200px;
+    float: left;
+    left: 0;
+}
+
+/* clas used to hide and show buttons and elements at different events */
+.hide {
+    display: none;
+}
+
+/* style for header end-game text*/
+#result-text h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+/* style for paragrah end-game text*/
+#result-text p {
+    font-size: 3em;
+    margin: 1em 0 2em 0;
+}
+
+/* style for end-game text*/
+#result-text span {
+    font-weight: 600;
+}
+
+
+/* style for the new game button */
+#new-game-button {
+    margin-right: 40%;
+    font-size: 1.5em;
+    padding: 1em 1.5em;
+    background: linear-gradient(to left, rgb(255, 123, 0), purple);
+    border: 3px solid #000000;
+    color: #000000;
+    border-radius: 15px 0 15px 0;
+    cursor: pointer;
+}
+
+/* style for the new game button hover */
+#new-game-button:hover {
+    background: linear-gradient(to right, white, purple);
+    animation: pulse 0.5s infinite alternate;
+}
+
+/* style for the scores button */
+#scores-button {
+    position: fixed;
+    margin-left: 40%;
+    margin-top: 5%;
+    font-size: 1.5em;
+    padding: 1em 2em;
+    background: linear-gradient(to left, rgb(255, 123, 0), purple);
+    border: 3px solid #000000;
+    color: #000000;
+    border-radius: 15px 0 15px 0;
+    cursor: pointer;
+}
+
+/* style for the scores button hover*/
+#scores-button:hover {
+    background: linear-gradient(to right, rgb(0, 0, 0), purple);
+    animation: pulse 0.5s infinite alternate;
+    color: white;
+}
+
+
+/* style for when the user wins*/
+.win-msg {
+    color: rgb(255, 255, 255);
+}
+
+/* style for when the looses wins*/
+.lose-msg {
+    color: #000000;
+}
+
+
+/* style for the text welcoming the player*/
+#welcome-message{
+    color: white;
+    font-size: xx-large;
+    margin-top: -10%;
+}
+
+
+/* style for the mute button*/
+#mute-button {
+    font-size: 30px;
+    position: absolute;
+    color: rgb(255, 0, 43);
+    border-radius: 15px;
+    background: linear-gradient(to right, white, purple);
+    border-color: black;
+    right: 5%;
+    margin-top: 20%;
+    font-weight: bold;
+}
+
+/* style for the unmute button*/
+#unmute-button {
+    background: linear-gradient(to left, white, purple);
+    font-size: 30px;
+    position: absolute;
+    color: blue;
+    border-radius: 15px;
+    border-color: black;
+    right: 15%;
+    margin-top: 20%;
+    font-weight: bold;
+}
+
+/* style for the slider button*/
+#music-slider {
+    margin-top: 23%;
+}
+
+/* style for the in-game timer*/
+#timer {
+    float: left;
+    margin-left: 1%;
+    margin-top: 0%;
+    position: absolute;
+    font-size: 24px;
+    color: red;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Style the time remaining text within the timer */
+#time-left {
+    font-weight: bold;
+    font-size: 24px;
+    color: orange;
+}
+
+/* style for the game login button*/
+#custom-login-button {
+    background: linear-gradient(to left, purple, white);
+    margin-top: 5%;
+    color: white;
+    width: 30%;
+    height: 10%;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* style for the game login button hover*/
+#custom-login-button:hover {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to left, white, purple);
+    opacity: 0.8;
+    animation: bounce 1s infinite;
+}
+
+/* style for another text welcoming the player (working together to balance out buttons)*/
+#welcome-message {
+    animation: pulse 0.5s infinite alternate;
+    font-size: 50px;
+    color: white;
+    animation: hueRotate 5s infinite linear;
+}
+
+/* style for message container that tells the user how much time they have left*/
+.countdown-message-container {
+    border-radius: 15px;
+    position: absolute; 
+    color: pink;
+    margin-right: 20%;
+    top: 10px; 
+}
+
+/* style for message text that tells the user how much time they have left*/
+.countdown-message {
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

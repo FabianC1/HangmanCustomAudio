@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+    <title>Scores Page</title>
+    <!-- Include a link to an external stylesheet -->
+    <link rel="stylesheet" href="../Website/CSS/style.css">
+    <!-- Include an external JavaScript file -->
+    <script src="../Website/JavaScript/ScoresPageLogic.js"></script>
+    <script src="../Website/JavaScript/functions.js"></script>
+    <script src="../Website/JavaScript/LoadTableData.js"></script>
+
+</head>
+<body>
+    <header>
+        <!-- Header section with navigation links and site logo -->
+        <nav class="navigation">
+            <a href="Home Page.html">Home</a>
+            <a href="Login Page.html">Login</a>
+            <a href="Registration Page.html">Register</a>
+            <a class="active" href="Scores Page.html">Scores</a>
+            <a href="Play Page.html">Play</a>
+            <img class="logotop" src="../Website/Images/WebsiteLogo.png">
+        </nav>
+    </header>
+
+    <main style="overflow-y: scroll;">
+        <!-- Main content section -->
+        <h1 class="Scores">
+            <img src="../Website/Images/TitleIcon.png" style="width: 60px; height: 60px; float: left; margin-top: 10;">
+            Scores:
+        </h1>
+    
+        <table class="scores-table" id="myTable">
+            <!-- Table for displaying scores -->
+            <tr>
+                <th>Rank</th>
+                <th>Player Name</th>
+                <th>Score</th>
+            </tr>
+
+            <!-- Sample score data -->
+            
+            <!-- Button to add a new score -->
+            <button class="createRow" onclick="updatePlayerName()">Add your score</button>
+            <button class="GoPlay" onclick="window.location.href='Play Page.html'">Play Game</button>
+        </table>
+    </main>
+
+    <aside>
+        <!-- Sidebar section for contact information -->
+        <h3 class="h3">
+            <img class="icon" src="../Website/Images/ContactsIcon.png">
+            Contacts:
+        </h3>
+    
+        <p class="contacts">
+            Developer - +44 7368 112707
+            <br>
+            <br>
+            Manager - +44 7457 224510
+            <br>
+            <br>
+            Distributor - +44 7457 987415
+            <br>
+            <br>
+            Designer - +44 7700 069874
+            <br>
+            <br>
+        </p>
+    </aside>
+    
+    <footer>
+        <!-- Footer section with links and logos -->
+        <div class="images">
+            <img src="../Website/Images/YouTubeLogo.png" width="100%" height="50%">
+            <p class="neonText">YouTube</p>
+        </div>
+    
+        <div class="images">
+            <img src="../Website/Images/FacebookLogo.jpg" width="100%" height="50%">
+            <p class="neonText">Facebook</p>
+        </div>
+    
+        <div class="images">
+            <img src="../Website/Images/TelegramLogo.png" width="100%" height="50%">
+            <p class="neonText">Telegram</p>
+        </div>
+    
+        <div class="images">
+            <img src="../Website/Images/WhatsAppLogo.png" width="100%" height="50%">
+            <p class="neonText">WhatsApp</p>
+        </div>
+    
+        <div class="images">
+            <img src="../Website/Images/InstagramLogo.png" width="100%" height="50%">
+            <p class="neonText">Instagram</p>
+        </div>
+    
+        <div class="footerlogo">
+            <img src="../Website/Images/WebsiteLogo.png" width="100%" height="100%" style="border-radius: 5px;">
+        </div>
+    </footer>
+    
+
+</body>
+
+</html>
